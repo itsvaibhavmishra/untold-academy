@@ -29,9 +29,11 @@
 <?php 
     $user_names = array("Vaibhaw", "Vipul", "XYZ", "ABC", "Someone");   // creates an array of names
 
-    function CallNames($n, $user_names){    // since $user_names is out of scope we accept $user_names here
+    // since $user_names is out of scope we accept $user_names here
+    function CallNames($user_names){
         $count = 0; // counter
-        while($count < $n-1){   // implementation of while loop
+        while($count < count($user_names)){   // implementation of while loop
+            // count() function returns length of Array
             echo "<li>$user_names[$count] </li>";
             $count++;
         }
@@ -39,4 +41,4 @@
 ?>
 
 <p>Hello, here's my name again: <?php echo $user_names[0] ?>.</p>
-<p>And here's names of all the users: <?php echo CallNames(5, $user_names) ?>.</p>  <!-- Passing Length of array and the array itself -->
+<p>And here's names of all the users: <?php echo CallNames($user_names) ?>.</p>  <!-- Calling function and passing array -->
