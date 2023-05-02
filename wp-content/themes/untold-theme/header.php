@@ -5,6 +5,7 @@
 
 <head>
     <?php wp_head() ?>
+    <!-- this functions points to functions.php file -->
 </head>
 
 <body>
@@ -23,6 +24,5 @@
             <button>Go</button>
         </div>
     </nav>
-</body>
 
-</html>
+    <!-- the closing body and html tags are moved to footer as it goes from header through index.php to the footer -->
