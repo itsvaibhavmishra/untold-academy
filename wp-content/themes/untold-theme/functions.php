@@ -16,4 +16,10 @@
         // wp_enqueue_scripts is for making wp know we are trying to load a CSS or JS file
     // second argument accepts name of the function which would load our file
         // this can be of any name
+
+    function academy_features() {
+        add_theme_support('title-tag');
+    }
+
+    add_action('after_setup_theme', 'academy_features');    // for adding features for our website e.g. title of the website
 ?>

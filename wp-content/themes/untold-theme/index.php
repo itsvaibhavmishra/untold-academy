@@ -83,31 +83,31 @@
     <div data-glide-el="track" class="glide__track">
         <div class="glide__slides">
             <div class="hero-slider__slide"
-                style="background-image: url(<?php echo get_theme_file_uri('/images/bus.jpg')?>)">
+                style="background-image: url(<?php echo get_theme_file_uri('/images/esa.jpeg')?>)">
                 <div class="hero-slider__interior container">
                     <div class="hero-slider__overlay">
-                        <h2 class="headline headline--medium t-center">Free Transportation</h2>
-                        <p class="t-center">All students have free unlimited bus fare.</p>
+                        <h2 class="headline headline--medium t-center">Library</h2>
+                        <p class="t-center">All students have free unlimited access to library.</p>
                         <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
                     </div>
                 </div>
             </div>
             <div class="hero-slider__slide"
-                style="background-image: url(<?php echo get_theme_file_uri('/images/apples.jpg')?>)">
+                style="background-image: url(<?php echo get_theme_file_uri('/images/aca.jpg')?>)">
                 <div class="hero-slider__interior container">
                     <div class="hero-slider__overlay">
-                        <h2 class="headline headline--medium t-center">An Apple a Day</h2>
-                        <p class="t-center">Our dentistry program recommends eating apples.</p>
+                        <h2 class="headline headline--medium t-center">Enviroment</h2>
+                        <p class="t-center">Our facility provies a very engergetic enviroment.</p>
                         <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
                     </div>
                 </div>
             </div>
             <div class="hero-slider__slide"
-                style="background-image: url(<?php echo get_theme_file_uri('/images/bread.jpg')?>)">
+                style="background-image: url(<?php echo get_theme_file_uri('/images/acabuild.jpg')?>)">
                 <div class="hero-slider__interior container">
                     <div class="hero-slider__overlay">
-                        <h2 class="headline headline--medium t-center">Free Food</h2>
-                        <p class="t-center">Untold Academy offers lunch plans for those in need.</p>
+                        <h2 class="headline headline--medium t-center">Explore Untold</h2>
+                        <p class="t-center">Untold Academy offers a lot more for you to explore.</p>
                         <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
                     </div>
                 </div>
